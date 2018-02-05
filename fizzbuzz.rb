@@ -1,0 +1,13 @@
+#Define a method that takes an argument 
+
+def fizzbuzz(input)
+#if the argument is divisible by 3 return the STRING "Fizz"
+if input % 3 == 0 && input % 5 == 0
+  return "FizzBuzz"
+elsif input % 3 == 0
+  return "Fizz"
+elsif input % 5 == 0
+  return "Buzz"
+else
+end
+end
